@@ -1,0 +1,28 @@
+/* CSS files add styling rules to your content */
+
+body {
+  margin: 0em;
+}
+
+.cover {
+  height:400px;
+  background-image:url(https://cdn.glitch.com/2ea2e73b-670c-41ab-8a47-863b82c7e106%2Frsz_angelina-litvin-xtj4ztpd__8-unsplash.jpg?v=1616456572805);
+  color:white;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+}
+
+.card-title{
+  min-height:3rem;
+}
+
+.card-text{
+  min-height:10rem;
+}
+
+.card{
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+}
